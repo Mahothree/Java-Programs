@@ -24,5 +24,5 @@ public class doubletoInt_Assignment101_102_103 {
 }
 
 
-git config --global user.email "mahothree123@gmail.com"
-git config --global user.name "mahothree"
+//git config --global user.email "mahothree123@gmail.com"
+//git config --global user.name "mahothree"

@@ -1,11 +1,12 @@
 package Assignments;
+
 abstract class oneMethod
 {
 	abstract void child();
 	//abstract method don't have implementation
-	
+	abstract void child1();
 }
-public class abstract1 extends oneMethod 
+public class Assignment30_AbstractClass extends oneMethod 
 {
 	
 void child()
@@ -14,9 +15,15 @@ void child()
 }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		abstract1 a=new abstract1();
+		Assignment30_AbstractClass a=new Assignment30_AbstractClass();
 		a.child();
+		a.child1();
 
+	}
+	@Override
+	void child1() {
+		// TODO Auto-generated method stub
+		System.out.println("Child1");
 	}
 
 }
