@@ -3,7 +3,7 @@ package Selenium_Practice;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
-public class first_selenium extends Thread{
+public class Assignment_122_windows extends Thread{
 
 	public static void main(String[] args) {
 		ChromeDriver driver=new ChromeDriver();
