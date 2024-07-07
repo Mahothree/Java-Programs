@@ -12,12 +12,14 @@ public class Assignment_141_Drag_and_Drop {
 		EdgeDriver driver=new EdgeDriver();
 		driver.get("https://grotechminds.com/drag-and-drop/");
 		driver.manage().window().maximize();
-		WebElement drag=driver.findElement(By.xpath("(//div[@id=\"container\"])[4]"));
+		WebElement drag=driver.findElement(By.xpath("(//div[@id=\"container\"])[7]"));
 		WebElement drop=driver.findElement(By.xpath("//div[@id=\"div2\"]"));
 
 		Actions a=new Actions(driver);
+		for(int i=1;i<10;i++) {
 		a.dragAndDrop(drag, drop).perform();
 		a.dragAndDrop(drop, drag).perform();
+		}
 		
 	}
 

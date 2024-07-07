@@ -1,10 +1,11 @@
 package Selenium_Practice;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 
-public class Assignment_132_RelativeXpath {
+public class Assignment_147_Isenable_displayed_selected_JSAM {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -19,25 +20,23 @@ public class Assignment_132_RelativeXpath {
 		pwd.sendKeys("Mahothree");
 		WebElement fname=driver.findElement(By.xpath("(//input)[4]"));
 		fname.sendKeys("Mahothree");
-		WebElement submit=driver.findElement(By.xpath("(//input)[6]"));
-		submit.click();
-		
-		/*WebElement boycb=driver.findElement(By.xpath("(//input)[7]"));
-		boycb.click();
+		WebElement lname=driver.findElement(By.xpath("(//input)[5]"));
+		WebElement boycb=driver.findElement(By.xpath("(//input)[7]"));
 		WebElement girlcb=driver.findElement(By.xpath("(//input)[8]"));
-		girlcb.click();
 		WebElement baby=driver.findElement(By.xpath("(//input)[9]"));
-		baby.click();
-		//WebElement submit1=driver.findElement(By.xpath("(//input)[10]"));
-		//submit1.click();
-		WebElement male=driver.findElement(By.xpath("(//input)[11]"));
-		male.click();
-		WebElement fmale=driver.findElement(By.xpath("(//input)[12]"));
-		fmale.click();
-		WebElement loc=driver.findElement(By.xpath("(//input)[13]"));
-		loc.click();
-		WebElement signin=driver.findElement(By.xpath("(//input)[14]"));
-		signin.click();*/
+		if(lname.isEnabled()&&lname.isSelected()) {
+			lname.sendKeys("odepalli");
+		System.out.println("disabled");
+		}
+		else if(boycb.isSelected()&&girlcb.isSelected()&&baby.isSelected()){
+			System.out.println("Not selected");
+		}
+		else {
+			boycb.click();
+			girlcb.click();
+			baby.click();
+		}
+		
 	}
 
 }

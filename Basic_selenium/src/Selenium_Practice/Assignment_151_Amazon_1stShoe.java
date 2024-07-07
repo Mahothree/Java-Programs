@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
-public class Assignment_133_find_shoe_Amazon_relativeXpath {
+public class Assignment_151_Amazon_1stShoe {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -18,7 +18,9 @@ public class Assignment_133_find_shoe_Amazon_relativeXpath {
 		search.sendKeys(Keys.ENTER);
 		WebElement shoe1=driver.findElement(By.xpath("(//div[@class=\"sg-col-4-of-24 sg-col-4-of-12 s-result-item s-asin sg-col-4-of-16 AdHolder sg-col s-widget-spacing-small sg-col-4-of-20\"])[1]"));
 		shoe1.click();
-
+		
+	
+		
 	}
 
 }

@@ -15,14 +15,14 @@ public class Assignment_144_Select_amznfresh_dropdown {
 		driver.manage().window().maximize();
 		driver.get("https://www.amazon.in/");
 		
-		WebElement a=driver.findElement(By.id("nav-search-dropdown-card"));
-	//	a.click();
-		/*a.sendKeys(Keys.ARROW_DOWN);
+		WebElement a=driver.findElement(By.xpath("//select[@class=\"nav-search-dropdown searchSelect nav-progressive-attrubute nav-progressive-search-dropdown\"]"));
+	//a.click();
+	/*	a.sendKeys(Keys.ARROW_DOWN);
 		a.sendKeys(Keys.ARROW_DOWN);
 		a.sendKeys(Keys.ARROW_DOWN);
 		a.sendKeys(Keys.ARROW_DOWN);*/
-	Select s=new Select(a);
-	s.selectByVisibleText("Amazon fresh");
+Select s1=new Select(a);
+s1.selectByVisibleText("Amazon Fresh");
 
 		
 		
