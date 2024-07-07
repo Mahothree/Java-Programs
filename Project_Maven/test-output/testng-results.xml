@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-07T13:25:33 IST" name="Default suite" finished-at="2024-07-07T13:25:59 IST" duration-ms="25061">
+    <groups>
+    </groups>
+    <test started-at="2024-07-07T13:25:33 IST" name="Default test" finished-at="2024-07-07T13:25:59 IST" duration-ms="25061">
+      <class name="Amazon_TestCases.Login_TC">
+        <test-method signature="login_amzn()[pri:0, instance:Amazon_TestCases.Login_TC@6404f418]" started-at="2024-07-07T13:25:34 IST" name="login_amzn" finished-at="2024-07-07T13:25:58 IST" duration-ms="24969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_amzn -->
+      </class> <!-- Amazon_TestCases.Login_TC -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
